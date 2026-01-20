@@ -1,0 +1,41 @@
+# readme
+
+This is a simple readme file for the code ./decryptor.py
+
+## Description
+
+This script is designed to decrypt files that have been encrypted using a specific encryption algorithm. 
+It takes an encrypted payload as input and produces the decrypted content as output.
+
+## Usage
+
+To use the decryptor script, run the following command in your terminal:
+```
+python decryptor.py <encrypted_payload> 
+```
+
+Replace `<encrypted_payload>` with the payload you want to decrypt.
+
+## Requirements
+- Python 3.x
+- No need for additional libraries.
+- Ensure you have the required permissions to read the encrypted file and write to the output location.
+
+## Example
+```
+python decryptor.py encrypted_payload 
+```
+This command will decrypt `encrypted_payload` and output the decrypted content.
+
+## Note
+Make sure to handle sensitive data carefully and ensure that you have the right to decrypt the files you are working with. Unauthorized decryption of files may be illegal and unethical.
+
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Author
+https://www.bitsight.com/blog/rapperbot-infection-ddos-split-second
+Written by BitSight Research Team
+https://www.bitsight.com/
+
